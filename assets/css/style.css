@@ -1,0 +1,165 @@
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg?size=338&ext=jpg);
+    background-repeat:repeat;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    background-color:#ffffff;
+    border-bottom: solid #cccccc;
+    width:100%;
+    margin: auto;
+    height: 100px;
+}
+    .name {
+            margin-left:12.5%;
+            border-style:solid #4aaaa5;
+            padding:0px;
+            color:#ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:30px;
+            width:250px;
+            height:100%;
+            font-weight:bold;
+            background-color:#4aaaa5;
+            }
+    .nav {
+        position: absolute;
+        top: 10%;
+        right:15%;
+    }
+    .port {
+        padding:5px;
+        border-right:solid #cccccc;
+        border-left:solid #cccccc;
+    }
+        
+
+.aboutme {
+    padding-left:20px;
+    background-color:#ffffff;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    align-content:center;
+    padding-bottom:10px;
+
+}
+
+p {
+    padding-top:10px;
+    padding-left:0px;
+    padding-right:0px;
+    color:#777777;
+    font-family:'Times New Roman', Times, serif;
+}
+
+img {
+    height:150px;
+    width:112.50px;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-size:30px;
+    width:920px;
+    border-bottom: solid #dddddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+
+.footer {
+    position: fixed;
+    bottom:0px;
+    background-color:#666666;
+    width:100%;
+    height:30px;
+    margin-right: 0;
+    margin-left: 0;
+    border-top: solid #4aaaa5 8px;
+}
+
+a {
+    font-family:'Times New Roman', Times, serif;
+    color:grey;
+    text-decoration:none;
+}
+
+form {
+    padding-top:10px;
+}
+
+.port-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+
+
+.hangman, .RPG, .Trivia, .Rutger, .RPS{
+    flex: 1;
+    text-align:center;
+    margin:20px;
+    height:128px;
+    width:128px;
+    color:white;
+    background-repeat:no-repeat;
+    align-content:center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+/*icons used from https://www.classicgaming.cc/classics/pac-man/icons */
+
+.hangman{
+    background-image: url('../images/pixel-fruit-apple-128x128.png');
+
+}
+
+.RPG{
+    background-image: url('../images/pixel-ghost-blue-128x128.png');
+
+}
+
+.Trivia{
+    background-image: url('../images/pixel-ghost-pink-128x128.png');
+
+}
+
+.Rutger{
+    background-image: url('../images/pixel-ghost-red-128x128.png');
+
+}
+
+.RPS{
+    background-image: url('../images/Retro-Star-icon.png');
+
+}
+
+.ptext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color:#4aaaa5;
+    text-align:center;
+    bottom:35%;
+    width:128px;
+    font-family:'Times New Roman', Times, serif;
+    vertical-align: middle;
+    margin-top:25.5%;
+    padding:0px;
+    height:30px;
+}
